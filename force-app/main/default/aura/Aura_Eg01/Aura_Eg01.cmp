@@ -1,0 +1,5 @@
+<aura:component controller="insertacc" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+      <lightning:input type="string" value="" label="Enter a name" aura:id="inp"/>
+    <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+</aura:component>

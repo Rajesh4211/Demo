@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Calculator">
+        <lightning-layout >
+            <lightning-layout-item size="6">
+            <lightning-input type="number" label="Enter a first number" name="aval" onchange={callme}></lightning-input> <br>
+            <lightning-input type="number" label="Enter a second number" name="bval" onchange={callme}></lightning-input> <br>
+            <lightning-button label="Add" onclick={add}></lightning-button><br>
+            <lightning-button label="mul" onclick={mul}></lightning-button><br>
+            <lightning-button label="Sub" onclick={sub}></lightning-button><br>
+        </lightning-layout-item>
+        </lightning-layout>
+        <p></p>
+        <p></p>
+        <p></p>
+        Result:{resultval}
+    </lightning-card>
+</template>

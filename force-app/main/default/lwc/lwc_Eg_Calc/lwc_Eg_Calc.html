@@ -1,0 +1,9 @@
+<template>
+    <lightning-input label="Enter the value of a" type="number" name={aval} onchange={callme}></lightning-input>
+    <lightning-input label="Enter the value of b" type="number" name={bval} onchange={callme}></lightning-input>
+    <lightning-button label="add" onclick={add}></lightning-button>
+    <lightning-button label="sub" onclick={sub}></lightning-button>
+    <lightning-button label="mul" onclick={mul}></lightning-button>
+    <p></p>
+    Result:{resval}
+</template>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Account Table" icon-name="standard:Account">
+        <template if:true={account.data}>
+            <lightning-datatable
+            key-field="Id"
+            data={account.data}
+            columns={col}>
+
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,8 @@
+<aura:component >
+    <lightning:button label="Follow" variant="brand-outline" iconName="utility:add" iconPosition="right"/>
+   <lightning:buttonGroup>
+    <lightning:button label="New" variant="brand"/>
+    <lightning:button label="Edit" variant="destructive"/>
+    <lightning:button label="Delete" variant="success"/>
+    </lightning:buttonGroup> 
+</aura:component>

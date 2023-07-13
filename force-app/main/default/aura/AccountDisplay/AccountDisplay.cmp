@@ -1,0 +1,13 @@
+<aura:component controller="AccountDisplay">   
+    <aura:attribute name="acc" type="Account[]"/>
+    
+    
+    <lightning:card title="Account List">
+        <lightning:datatable  keyField="id"
+                			  data="{! v.acc }"
+                              columns="{! v.columns }"></lightning:datatable>
+         <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+    </lightning:card>
+    
+    
+</aura:component>

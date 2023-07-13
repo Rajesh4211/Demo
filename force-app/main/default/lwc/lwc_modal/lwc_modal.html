@@ -1,0 +1,22 @@
+<template>
+    <lightning-button label="Run Test Class" onclick={runTest} variant="brand"></lightning-button>
+
+    <lightning-spinner if:true={showSpinner} size="large"></lightning-spinner>
+
+    <template if:true={showModal}>
+        <div class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium slds-truncate">{modalTitle}</h2>
+                    <button class="slds-button slds-button_icon slds-modal__close" title="Close" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close" size="small"></lightning-icon>
+                    </button>
+                </div>
+                <div class="slds-modal__content slds-p-around_medium">
+                    <p>{modalMessage}</p>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

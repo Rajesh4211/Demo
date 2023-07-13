@@ -1,0 +1,24 @@
+<aura:component >
+	    <lightning:card iconName="standard:account" >
+        <aura:set attribute="actions">
+            <lightning:buttonGroup>
+        <lightning:button label="Refresh" />
+        <lightning:button label="Edit" />
+        <lightning:button label="Save" />
+        <lightning:buttonMenu alternativeText="Show menu">
+                <lightning:menuItem value="MenuItemOne" label="Menu Item One" />
+                <lightning:menuItem value="MenuItemTwo" label="Menu Item Two" />
+                <lightning:menuItem value="MenuItemThree" label="Menu Item Three" />
+                <lightning:menuItem value="MenuItemFour" label="Menu Item Four" />
+            </lightning:buttonMenu>
+    </lightning:buttonGroup>
+        </aura:set>
+            <aura:set attribute="title" >
+            Account
+                <h1><b>Rajesh Lomte</b></h1>
+            </aura:set>
+            Name:<p></p>
+            Address:<p></p>
+            City:
+        </lightning:card>
+</aura:component>

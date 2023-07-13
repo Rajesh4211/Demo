@@ -1,0 +1,3 @@
+<aura:component >
+    <c:lwc_First/>
+</aura:component>

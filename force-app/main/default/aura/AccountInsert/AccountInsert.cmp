@@ -1,0 +1,8 @@
+<aura:component controller="AccountInsert">
+    <aura:attribute name="accins" type="account" default="{'sObjectType':'account'}"/>
+    <lightning:card title="Account Insert">        
+        <lightning:input label="Enter Name" value="{!v.accins.Name}"/><br/>
+        <lightning:input label="Enter Phone" value="{!v.accins.Phone}"/><br/>
+        <lightning:button label="Insert" onclick="{!c.insert}"/>
+    </lightning:card>
+</aura:component>

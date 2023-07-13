@@ -1,0 +1,10 @@
+<template>
+    ===============Using For each==============
+    <template for:each={cities} for:item=a>
+        <p key={a}>{a}</p>
+    </template>
+    ===============Using Iteration=============
+    <template iterator:item={cities}>
+        <p key={item.value}>{item.value}</p>
+    </template>
+</template>

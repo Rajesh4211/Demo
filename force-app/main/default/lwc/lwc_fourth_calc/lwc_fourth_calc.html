@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Calc">
+        <lightning-input label="Enter Num1" name="aval" onchange={callMe} ></lightning-input>
+        <lightning-input label="Enter Num2" name="bval" onchange={callMe} ></lightning-input>
+        <lightning-button label="Add" onclick={addMe} ></lightning-button>
+    </lightning-card>
+    <p></p>
+    <p></p>
+    <lightning-card title="Result">
+        Result={resultval}
+    </lightning-card>
+</template>

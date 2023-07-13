@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="str" type="String" default="ABC" />
+    {!v.str}<br/>
+    <div class="abc slds-text-heading_large slds-size_1-of-3" id="123" onclick="{!c.onclickmethod}">This is Division </div>
+     <lightning:button variant="brand"  label="Click" title="Base action" onclick="{! c.handleClick }"/>
+</aura:component>

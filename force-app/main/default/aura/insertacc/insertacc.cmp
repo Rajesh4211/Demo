@@ -1,0 +1,4 @@
+<aura:component >
+	 <aura:attribute name="str" type="string"/>
+    <lightning:button label="Name" onclick="{c.callme}"/>
+</aura:component>

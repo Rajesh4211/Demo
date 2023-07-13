@@ -1,0 +1,11 @@
+<template>
+   <lightning-card title="Emp Info"></lightning-card>
+   <lightning-layout>
+        <lightning-layout-item size="6">
+            <lightning-input label="Name" type="text" value={name}></lightning-input>
+            <lightning-input label="Phone" type="phone" value={phone}></lightning-input>
+            <lightning-input label="DOB" type="date" value={date}></lightning-input>
+            <lightning-button title="Change" onclick={callme}></lightning-button>
+        </lightning-layout-item>
+   </lightning-layout> 
+</template>
