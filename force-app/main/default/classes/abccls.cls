@@ -1,7 +1,5 @@
 public with sharing class Abccls {
-    public abccls() {   
-             
+    public abccls() {  
         System.debug();
-
     }
 }
